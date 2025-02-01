@@ -5,7 +5,7 @@
 ***
 
 
-**CUID**- The second gen of backdoor cards. They dont use commands, instead the UID block can be written to like any other block. Can be detected if the system trys to write to block 0 and suceeds.
+**CUID**- The second gen of backdoor cards. Doesnt use commands, instead the UID block can be written to like any other block. Can be detected if the system tries to write to block 0 and succeeds.
 
 
 ***
@@ -17,4 +17,4 @@
 ***
 
 
-**UFUID**- A kind of upgrade to "normal" FUID cards. You can write to block 0 as often as you want, but once you issue the lock command it is permanently locked. Which also makes it almost undetectable. I dont really see the improvement of FUID, but whatever.
+**UFUID**- A kind of upgrade to "normal" FUID cards. You can write to block 0 as often as you want, but once you issue the lock command its permanently locked. Which also makes it almost undetectable. I dont really see the improvement of FUID, but whatever.
